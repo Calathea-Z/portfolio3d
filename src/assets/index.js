@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import calathea from './calathea.png';
+import zLogo from './z.svg'
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   jobit,
   tripguide,
   calathea,
+  zLogo,
 };
