@@ -1,8 +1,10 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import backendNew from "./backendNew.png"
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import website from "./website.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,11 +22,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import react3d from "./react3d.png"
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import gaLogo from "./company/gaLogo.png";
+import avlLogo from "./company/avllogo.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,13 +34,16 @@ import tripguide from "./tripguide.png";
 
 import calathea from './calathea.png';
 import zLogo from './z.svg'
+import calatheaDesignsLogo from './calathea_design_logo_1.png'
 
 export {
   logo,
   backend,
+  backendNew,
   creator,
   mobile,
   web,
+  website,
   github,
   menu,
   close,
@@ -55,13 +60,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  react3d,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  avlLogo,
+  gaLogo,
   carrent,
   jobit,
   tripguide,
   calathea,
+  calatheaDesignsLogo,
   zLogo,
 };
