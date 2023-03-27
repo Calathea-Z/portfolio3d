@@ -4,6 +4,10 @@ import {
   website,
   javascript,
   typescript,
+  melodious,
+  toYourDoor,
+  shoestring,
+  demo,
   html,
   css,
   guitar,
@@ -194,67 +198,94 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Melodious",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This playlist generator app offers a personalized music experience for music lovers. The app utilizes Spotify and OpenAI APIs to generate artist suggestions based on the user's input prompt and serves as a Spotify controller for convenient play. If you'd like to access the app and try it out, please don't hesitate to get in touch",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind.css",
         color: "pink-text-gradient",
       },
+      {
+        name: "recoil",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "openAI",
+        color: "blue-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: melodious,
+    source_code_link: "https://github.com/Calathea-Z/Melodious",
+    demo_code_link: "https://www.youtube.com/watch?v=xzMnZkHFiNs",
   },
   {
-    name: "Job IT",
+    name: "To Your Door",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This app was built through reverse-engineering of top delivery apps. Built with React Native, it's fast and easy to use on your mobile device. The database is a breeze to update thanks to Sanity.io and it looks great using Tailwind.css styling.",
     tags: [
+      {
+        name: "react native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind.css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "expo",
+        color: "blue-text-gradient"
+      }
+    ],
+    image: toYourDoor,
+    source_code_link: "https://github.com/Calathea-Z/To-Your-Door-Delivery-App-Case-Study-",
+    demo_code_link: "https://www.youtube.com/shorts/h0LDTesEako",
+  },
+  {
+    name: "ShoeString",
+    description:
+      "ShoesString is a digital guest book for people all over the world to share their thoughts on interesting travel locations and experiences with their friends. My programming partner and I built the app using React, Next.js, Node.js, Express.js, and MongoDB in a one week sprint.",
+    tags: [
+      {
+        name: "mongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "restAPI",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shoestring,
+    source_code_link: "https://github.com/Calathea-Z/ShoeString-frontend-v2",
+    demo_code_link: "https://shoe-string-frontend-v2.vercel.app/",
   },
 ];
 

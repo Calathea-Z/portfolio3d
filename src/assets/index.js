@@ -8,6 +8,10 @@ import website from "./website.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import demo from "./demo.png"
+import melodious from "./melodius.png"
+import toYourDoor from "./toYourDoor.png"
+import shoestring from "./shoestring.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -41,6 +45,9 @@ import zLogo from './z.svg'
 import calatheaDesignsLogo from './calathea_design_logo_1.png'
 
 export {
+  shoestring,
+  toYourDoor,
+  melodious,
   logo,
   backend,
   backendNew,
@@ -58,6 +65,7 @@ export {
   git,
   html,
   javascript,
+  demo,
   python,
   mongodb,
   nextjs,
