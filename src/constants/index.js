@@ -6,13 +6,17 @@ import {
   typescript,
   html,
   css,
+  guitar,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   nodejs,
   react3d,
   mongodb,
   git,
+  postgreSQL,
+  python,
   figma,
   docker,
   meta,
@@ -92,21 +96,21 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "postgreSQL",
+    icon: postgreSQL,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "python",
+    icon: python,
   },
+  {
+    name: "next.js",
+    icon: nextjs,
+  }
 ];
 
 const experiences = [
@@ -136,11 +140,11 @@ const experiences = [
     ],
   },
   {
-    title: "Chef / Kitchen Manager",
+    title: "Chef / Head Kitchen Manager",
     company_name: "Asheville Pizza and Brewing Co.",
     icon: avlLogo,
     iconBg: "#383E56",
-    date: "Aug 2016 - Oct 2022",
+    date: "Aug 2011 - Oct 2022",
     points: [
       "Successfully led a team of 40 employees and maintained a high level of employee satisfaction and retention, achieving a 93% retention rate during a challenging period marked by the COVID-19 pandemic.",
       "Designed, developed, and implemented multiple Point-of-Sale systems, resulting in streamlined business operations and a 15% increase in profits for the restaurant.",
@@ -148,16 +152,15 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: " Professional Musician / Band Manager",
+    company_name: "Makayan",
+    icon: guitar,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2011 - Nov-2015",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As the band / tour manager, I oversaw and executed all operational responsibilities, including website design and maintenance, social media management, show booking, and financial accounting",
+      "Collaborated on the songwriting and production of a full-length studio album entitled 'Smile', recorded in Asheville, NC.",
+      "Performed on guitar, keyboards, and vocals.",
     ],
   },
 ];

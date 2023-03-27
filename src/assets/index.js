@@ -22,9 +22,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import react3d from "./react3d.png"
+import react3d from "./react3d.png";
+import postgreSQL from "./tech/postgre.png";
+import python from "./tech/python.png";
+import nextjs from "./tech/nextjs-icon.svg"
 
 import meta from "./company/meta.png";
+import guitar from "./company/guitar.png"
 import gaLogo from "./company/gaLogo.png";
 import avlLogo from "./company/avllogo.png"
 
@@ -49,11 +53,14 @@ export {
   close,
   css,
   docker,
+  postgreSQL,
   figma,
   git,
   html,
   javascript,
+  python,
   mongodb,
+  nextjs,
   nodejs,
   reactjs,
   redux,
@@ -62,6 +69,7 @@ export {
   threejs,
   react3d,
   meta,
+  guitar,
   avlLogo,
   gaLogo,
   carrent,
