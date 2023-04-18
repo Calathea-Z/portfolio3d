@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { SocialIcon } from "react-social-icons";
 
 const Contact = () => {
   const formRef = useRef();
@@ -113,12 +114,16 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-
+      
       <motion.div
         variants={slideIn("right", "tween", 0, 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
+        <div className='flex justify-end translate-y-[-2rem] gap-1'>
+        <SocialIcon url='https://www.linkedin.com/in/zach-sykes' bgColor="gray" style={{height: 30, width: 30}}className='hover:opacity-70'/>
+        <SocialIcon url='https://github.com/Calathea-Z' bgColor="gray" className='hover:opacity-70' style={{height: 30, width: 30}}/>
+      </div>
       </motion.div>
     </div>
   );

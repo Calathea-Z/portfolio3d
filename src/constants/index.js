@@ -84,7 +84,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -100,19 +100,19 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "postgreSQL",
+    name: "PostgreSQL",
     icon: postgreSQL,
   },
   {
-    name: "python",
+    name: "Python",
     icon: python,
   },
   {
-    name: "next.js",
+    name: "Next.js",
     icon: nextjs,
   }
 ];
