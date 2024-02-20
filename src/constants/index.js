@@ -105,8 +105,8 @@ const experiences = [
 		iconBg: "#FFFFFF",
 		date: "June 2023 - Current",
 		points: [
-			"Full-stack C# developer specializing in creating custom web applications using Blazor and .NET for an accounting firm, enhancing business operations through advanced technology solutions.",
-			"Collaborated with a team to design, develop, and maintain a suite of workflow platforms aimed at streamlining accountants' work processes, significantly improving efficiency and productivity",
+			"Full-stack C# developer specializing in creating custom web applications using Blazor and .NET, enhancing business operations through advanced technology solutions.",
+			"Collaborated with a team to design, develop, and maintain a suite of workflow platforms aimed at streamlining work processes, significantly improving efficiency and productivity",
 			"Utilized SQL Server Management Studio (SSMS) for database management, ensuring robust, secure, and scalable data storage solutions that support the complex needs of custom web applications",
 		],
 	},
