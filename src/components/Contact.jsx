@@ -2,7 +2,6 @@ import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { SocialIcon } from "react-social-icons";
@@ -30,7 +29,7 @@ const Contact = () => {
 
 		emailjs
 			.send(
-				"service_70igmt9",
+				"service_ipedruz",
 				"template_i71krge",
 				{
 					from_name: form.name,
