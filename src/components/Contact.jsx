@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
@@ -27,6 +28,8 @@ const Contact = () => {
 		e.preventDefault();
 		setLoading(true);
 
+		const messageBody = `Name: ${form.name}\nEmail: ${form.email}\nMessage: ${form.message}`;
+
 		emailjs
 			.send(
 				"service_ipedruz",
@@ -36,14 +39,19 @@ const Contact = () => {
 					to_name: "Zach",
 					from_email: form.email,
 					to_email: "zsykes21@gmail.com",
-					message: form.message,
+					message: messageBody,
 				},
 				"CdsvoqzAtZyIJxv7f"
 			)
 			.then(
 				() => {
 					setLoading(false);
-					alert("Thanks! I'll get back to you soon!");
+					Swal.fire({
+						title: "Thanks!",
+						text: "I'll get back to you soon!",
+						icon: "success",
+						confirmButtonText: "Cool",
+					});
 
 					setForm({
 						name: "",
@@ -54,7 +62,12 @@ const Contact = () => {
 				(err) => {
 					setLoading(false);
 					console.log(err);
-					alert("Sorry about that, something went wrong. Please try again!");
+					Swal.fire({
+						title: "Error!",
+						text: "Sorry about that, something went wrong. Please try again!",
+						icon: "error",
+						confirmButtonText: "OK",
+					});
 				}
 			);
 	};
@@ -109,6 +122,7 @@ const Contact = () => {
 							onChange={handleChange}
 							placeholder="What's your name?"
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+							required
 						></input>
 					</label>
 
@@ -121,6 +135,7 @@ const Contact = () => {
 							onChange={handleChange}
 							placeholder="What's your email?"
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+							required
 						></input>
 					</label>
 
@@ -133,6 +148,7 @@ const Contact = () => {
 							onChange={handleChange}
 							placeholder="Your message here."
 							className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
+							required
 						></textarea>
 					</label>
 
@@ -144,26 +160,6 @@ const Contact = () => {
 					</button>
 				</form>
 			</motion.div>
-
-			{/* <motion.div
-				variants={slideIn("right", "tween", 0, 0.2, 1)}
-				className="xl:flex-1 xl:h-auto md:h-[450px] h-[350px]"
-			>
-				<div className="flex justify-end translate-y-[-2rem] gap-1">
-					<SocialIcon
-						url="https://www.linkedin.com/in/zach-sykes"
-						bgColor="gray"
-						style={{ height: 30, width: 30 }}
-						className="hover:opacity-70"
-					/>
-					<SocialIcon
-						url="https://github.com/Calathea-Z"
-						bgColor="gray"
-						className="hover:opacity-70"
-						style={{ height: 30, width: 30 }}
-					/>
-				</div>
-			</motion.div> */}
 		</div>
 	);
 };
